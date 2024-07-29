@@ -1,0 +1,54 @@
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.BgColor{
+  margin-top: -40px;
+}
+.qrcode {
+  max-width: 50%;
+margin-top: 30px;
+  height: auto;
+  margin: 0 auto 1px;
+  padding: 20px 0px ;
+}
+.BgColor {
+  background-color: #f6f6f6;
+  padding: 15px;
+}
+
+@media (min-width: 768px) {
+  /* Apply these styles only for screens wider than 768px (tablets and desktops) */
+  .image-container {
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50%;
+  }
+}
+
+.phone{
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto 1px;
+}
+.Mobile{
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto 1px;
+}
+/* Add this media query for screens smaller than 768px (phones) */
+@media (max-width: 767px) {
+  .image-container {
+    /* Reset flex-direction for smaller screens */
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0; /* Remove the margin-left for center alignment */
+  }
+  
+  /* Adjust the image styles for smaller screens */
+  .phone, .Mobile, .qrcode {
+    max-width: 100%; /* Use the full width of the screen */
+  }
+}

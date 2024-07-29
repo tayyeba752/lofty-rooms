@@ -1,0 +1,82 @@
+.price {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #1e3c72;
+}
+.number{
+    font-size: 30px;
+}
+.card-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: rgb(74, 73, 73);
+}
+/* styles.css */
+.table {
+    width: 100%;
+    text-align: left;
+    background: #f5f6fa;
+    border-collapse: collapse;
+    border-radius: 5px;
+  }
+  .table td,
+  .table th {
+    border: none;
+    padding: 20px;
+  }
+  
+  .succes{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+ .request{
+  font-size: 40px;
+  font-weight: bold;
+ }
+  .about{
+    background: #f5f6fa;
+    font-size: 20px;
+    border-radius: 5px;
+    /* font-weight: bold; */
+  }
+ .hotel{
+    margin-top: 5%;
+   margin-right: 73%;
+    align-content: start;
+ }
+ .deta{
+    margin-top: 4%;
+    margin-right: 61%;
+     align-content: start;
+ }
+.line{
+    border-bottom: 2px solid black;
+    margin-top: 3%;
+}
+.khuram {
+  border-radius: 790%;
+ width: 270px;
+ height: 250px;
+}
+.book{
+
+    background-color: #272a61;
+    color: aliceblue;
+}
+/* Apply the styles to the button class */
+.book {
+  /* Make the button 100% wide */
+    text-align: left; /* Align the text to the left */
+    margin-right: auto; /* Push the button to the left edge */
+    margin-left: 80%; /* Remove any left margin */
+    display: block; /* Make it a block-level element */
+    border-radius: 50px;
+    font-size: 27px;
+    width: 15%;
+  }
+  
+  /* Optional styling for the button */
+  
+  

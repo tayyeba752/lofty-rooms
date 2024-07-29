@@ -1,0 +1,355 @@
+.custom-icon {
+  display: inline-block;
+  position: relative;
+  width: 19px;
+  /* Width and height of the circle */
+  height: 19px;
+  margin-right: 8px;
+  /* Adjust the gap between the circle and the icon */
+}
+
+.custom-icon:hover {
+  display: inline-block;
+  position: relative;
+  width: 21px;
+  /* Width and height of the circle */
+  height: 21px;
+  margin-right: 8px;
+  /* Adjust the gap between the circle and the icon */
+}
+
+.custom-icon::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #1E3C72;
+  /* Border creates the outline with your desired color */
+  border-radius: 50%;
+  /* Makes it a circle */
+  top: 0;
+  left: 0;
+}
+
+.custom-icon::before:hover {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #1E3C72;
+  /* Border creates the outline with your desired color */
+  border-radius: 50%;
+  /* Makes it a circle */
+  top: 0;
+  left: 0;
+}
+
+.custom-icon svg {
+  font-size: 16px;
+  /* Adjust the icon size to be smaller */
+  color: #1E3C72;
+  /* Color of the icon inside the circle */
+}
+.rounded-button {
+  border-radius: 60px; /* Adjust the border-radius for rounded corners */
+}
+.custom-navbar {
+  background-color: white; /* Set your desired background color */
+  z-index: 1000; /* Adjust the z-index as needed */
+}
+
+
+ 
+ 
+
+h2{
+  color:  #272a61;
+}
+.Title{
+font-family: "Times New Roman", Times, serif;
+font-weight: bolder;
+}
+header.style-3 .nav-right ul li a {
+border-color: #272a61;
+}
+header.style-3 .nav-right ul li a svg {
+fill: #272a61;
+transition: 0.35s;
+}
+header.style-3 .nav-right ul li a svg {
+fill: #272a61;
+transition: 0.35s;
+}
+:root {
+--primary-color2: #272a61;
+--primary-color3: #272a61;
+--gradient-color: linear-gradient(90deg, #F86CA7 0%, #FF7F18 100%);
+--title-color1: #001D23;
+--title-color2: #253D4E;
+--text-color1: #8A8A8A;
+--text-color2: #1F2124;
+--text-color3: #62686E;
+--text-color4: #4F4F4F;
+--white: #ffffff;
+--font-dosis: "Dosis";
+--font-cabin: "Cabin";
+}
+#content {
+  /* height:100%; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url(https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+}
+
+.well {
+  background-color: #ffffee
+}
+#content {
+  padding: 29% 19% 5%;  
+}
+
+
+.input-group {
+  width:100%;
+}
+#khuram{
+  height: 45px;
+}
+#search {
+  width: 45px;
+}
+#bn{
+  color: #fff;
+  background-color: #272a61;
+  border-color: #272a61;
+  border-radius: 7px;
+  margin-left: -20px;
+  width: 80px;
+}
+
+.text-center {
+  color: #fff;
+}
+.home3-categoty-area .category-card {
+  height: 50px;
+  width: 140px;
+  background: #E0F1F0;
+  border-radius: 12px;
+  perspective: 961px;
+  margin: 0 auto;
+}
+
+.Login{
+width: 20px;
+}
+.btn-outline {
+color: #272a61;
+border-color: #272a61;
+}
+
+
+
+
+html,body{
+padding:0;
+margin:0;
+}
+h1{text-align:center}
+.cover{
+background:rgba(0,0,0,0);
+position:fixed;
+width:100%;
+height:100%;
+display:none;
+}
+.contents{
+width:300px;
+height:300px;
+background:#f1f1f1;
+margin:30px auto;
+border:2px solid #ccc;
+border-radius:30px;
+position:relative;
+text-align:center;
+}
+.close{
+border:2px solid #ccc;
+border-radius:15px;
+padding:5px 15px;
+position:absolute;
+bottom:15px;
+text-align:center;
+left:30%;
+width:100px;
+box-shadow:inset 0px 0px 10px 5px #ccc;
+/* cursor: */
+}
+.WhatsappCall{
+color: black;
+font-size: 17px;
+}
+
+                                /* <Login form > */
+                                body {
+                                  font-family: 'Varela Round', sans-serif;
+                                }
+                                .form-control {
+                                  box-shadow: none;		
+                                  font-weight: normal;
+                                  font-size: 13px;
+                                }
+                                .navbar {
+                                  background: #fff;
+                                  padding-left: 16px;
+                                  padding-right: 16px;
+                                  border-bottom: 1px solid #dfe3e8;
+                                  border-radius: 0;
+                                }
+                                .nav-link img {
+                                  border-radius: 50%;
+                                  width: 36px;
+                                  height: 36px;
+                                  margin: -8px 0;
+                                  float: left;
+                                  margin-right: 10px;
+                                }
+                                .navbar .navbar-brand {
+                                  padding-left: 0;
+                                  font-size: 20px;
+                                  padding-right: 50px;
+                                }
+                                .navbar .navbar-brand b {
+                                  color: #272a61;		
+                                }
+                                .navbar .form-inline {
+                                  display: inline-block;
+                                }
+                                .navbar a {
+                                  color: #888;
+                                  font-size: 15px;
+                                }
+                                .navbar .sign-up-btn {
+                                  min-width: 110px;
+                                  max-height: 36px;
+                                }
+                                .navbar .dropdown-menu {
+                                  color: #999;
+                                  font-weight: normal;
+                                  border-radius: 1px;
+                                  border-color: #e5e5e5;
+                                  box-shadow: 0 2px 8px rgba(0,0,0,.05);
+                                }
+                                .navbar a, .navbar a:active {
+                                  color: #888;
+                                  padding: 8px 20px;
+                                  background: transparent;
+                                  line-height: normal;
+                                }
+                                .navbar .navbar-form {
+                                  border: none;
+                                }
+                                .navbar .action-form {
+                                  width: 280px;
+                                  padding: 20px;
+                                  left: auto;
+                                  right: 0;
+                                  font-size: 14px;
+                                }
+                                .navbar .action-form a {		
+                                  color: #272a61;
+                                  padding: 0 !important;
+                                  font-size: 14px;
+                                }
+                                .navbar .action-form .hint-text {
+                                    text-align: center;
+                                    margin-bottom: 15px;
+                                    font-size: 13px;
+                                }
+                                .navbar .btn-primary, .navbar .btn-primary:active {
+                                  color: #fff;
+                                  background: #272a61 !important;
+                                  border: none;
+                                }	
+                                .navbar .btn-primary:hover, .navbar .btn-primary:focus {		
+                                  color: #fff;
+                                  background: #272a61 !important;
+                                }
+                                .navbar .social-btn .btn, .navbar .social-btn .btn:hover {
+                                  color: #fff;
+                                  margin: 0;
+                                  padding: 0 !important;
+                                  font-size: 13px;
+                                  border: none;
+                                  transition: all 0.4s;
+                                  text-align: center;
+                                  line-height: 34px;
+                                  width: 47%;
+                                  text-decoration: none;
+                                }
+                                .navbar .social-btn .facebook-btn {
+                                  background: #507cc0;
+                                }
+                                .navbar .social-btn .facebook-btn:hover {
+                                  background: #4676bd;
+                                }
+                                .navbar .social-btn .twitter-btn {
+                                  background: #64ccf1;
+                                }
+                                .navbar .social-btn .twitter-btn:hover {
+                                  background: #272a61;
+                                }
+                                .navbar .social-btn .btn i {
+                                  margin-right: 5px;
+                                  font-size: 16px;
+                                  position: relative;
+                                  top: 2px;
+                                }
+                                .or-seperator {
+                                  margin-top: 32px;
+                                  text-align: center;
+                                  border-top: 1px solid #e0e0e0;
+                                }
+                                .or-seperator b {
+                                  color: #666;
+                                  padding: 0 8px;
+                                  width: 30px;
+                                  height: 30px;
+                                  font-size: 13px;
+                                  text-align: center;
+                                  line-height: 26px;
+                                  background: #fff;
+                                  display: inline-block;
+                                  border: 1px solid #e0e0e0;
+                                  border-radius: 50%;
+                                  position: relative;
+                                  top: -15px;
+                                  z-index: 1;
+                                }
+                                .navbar .action-buttons .dropdown-toggle::after {
+                                  display: none;
+                                }
+                                .form-check-label input {
+                                  position: relative;
+                                  top: 1px;
+                                }
+                                @media (min-width: 1200px){
+                                  .form-inline .input-group {
+                                    width: 300px;
+                                    margin-left: 30px;
+                                  }
+                                }
+                                @media (max-width: 768px){
+                                  .navbar .dropdown-menu.action-form {
+                                    width: 100%;
+                                    padding: 10px 15px;
+                                    background: transparent;
+                                    border: none;
+                                  }
+                                  .navbar .form-inline {
+                                    display: block;
+                                  }
+                                  .navbar .input-group {
+                                    width: 100%;
+                                  }
+                                }
+                                /* <Login form > */

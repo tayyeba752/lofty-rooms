@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOFTYROOMS</title>
+
+    <!-- <link rel="icon" href="assets/images/sm-logo.svg" type="image/gif" sizes="20x20"> -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoftyRooms Presented</title> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- <link rel="icon" href="assets/images/sm-logo.svg" type="image/gif" sizes="20x20"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+ 
+
+<link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
+  />
+  
+    <script>
+      // Prevent dropdown menu from closing when click inside the form
+      $(document).on("click", ".action-buttons .dropdown-menu", function(e){
+        e.stopPropagation();
+      });
+      </script>
+              <!-- ------------------Wathsapp -->
+     <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+     <script>
+     var wa_btnSetting = {"btnColor":"#272a61","ctaText":"","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"left","whatsAppNumber":"923232345673","welcomeMessage":"LoftyRoom! Booking the room.........","zIndex":999999,"btnColorScheme":"light"};
+     window.onload = () => {
+     _waEmbed(wa_btnSetting);
+     };
+     </script> 
+     <script>
+      $(document).on("click","#cust_btn",function(){
+  
+  $("#myModal").modal("toggle");
+  
+})
+     </script> 
+    <script>
+      // For Name Input
+jQuery(function() {
+    jQuery('.for_name').keydown(function(e) {
+      if ( e.ctrlKey || e.altKey) {
+        e.preventDefault();
+      } else {
+        var key = e.keyCode;
+        if (!((key == 8) || (key == 32) || (key == 46) || (key >= 35 && key <= 40) || (key >= 65 && key <= 90))) {
+          e.preventDefault();
+        }
+      }
+    });
+  });
+
+// For number only 
+$('.for_number').attr('maxlength','10');
+	$(".for_number").keypress(function(event) {
+  return /\d/.test(String.fromCharCode(event.keyCode));
+});
+
+// For Block previous Date in input[type="date"]
+$(function(){
+    var dtToday = new Date();
+    
+    var month = dtToday.getMonth() + 1;
+    var day = dtToday.getDate();
+    var year = dtToday.getFullYear();
+    if(month < 10)
+        month = '0' + month.toString();
+    if(day < 10)
+        day = '0' + day.toString();
+    
+    var maxDate = year + '-' + month + '-' + day;
+
+    $('.for_check_in').attr('min', maxDate);
+});
+
+// For Disable Check in previous Date in Check Out 
+jQuery('.for_check_in').focusout(function(){
+		 let chk_out = jQuery('.for_check_out').val();
+		 let chk_in = jQuery('.for_check_in').val();
+		 $('.for_check_out').attr('min', chk_in);
+		 if((chk_out == '')){
+			   
+			}
+		 else if( chk_in >= chk_out){
+			 alert('Please Choose Valid Date / Minimum 1 day ')
+			 jQuery(this).val(''); 
+		 }
+	 })
+
+// For Check Out 
+jQuery('.for_check_out').focusout(function(){
+   let chk_in = jQuery('.for_check_in').val();
+   if(jQuery(this).val() == '' ){
+     
+   }
+		 else if(jQuery(this).val() <= chk_in ){
+				  alert('Please Choose Valid Date / Minimum 1 day ')
+	   jQuery(this).val('');
+				 }
+})
+    </script>
+</head>
+  <body> 
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div> 
+  </body>
+  
+</html>
